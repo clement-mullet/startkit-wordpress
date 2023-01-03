@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # node-webkit-webpack-starter-wordpress
 
 > Warning: Make sure you're using Node.js and NPM
@@ -59,6 +61,10 @@ After you've developed app, you can build and compress the app with:
 ```
 
 then the bundle files are placed on the output dir `e.g. /dist`
+
+### Test your SCSS
+
+Run `npx stylelint "**/*.css"` for testing syntax scss/css
 
 ## License
 
